@@ -91,19 +91,54 @@ h1 {
 
 .sobre {
     padding: 6rem 2rem;
+    
 }
 
 .sobre-titulo {
     font-size: 3rem;
     color: var(--claro);
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .sobre-caixa {
     padding: 2rem;
-    max-width: 600px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .sobre-paragrafo {
+    text-align: center;
+    font-size: 1.2rem;
 
 }
+
+.projetos {
+
+}
+.projetos-caixa {
+
+}
+.projetos-titulo {
+
+}
+.projetos-imagem {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.info-projetos{
+
+}
+.paragrafo-projetos{
+
+}
+.paragrafos-projetos{
+
+}
+
