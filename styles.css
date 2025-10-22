@@ -171,20 +171,32 @@ h1 {
 }
 
 .contatos{
-
+    padding: 6rem 2rem;
 }
+
 .contatos-titulo{
-
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
+
 .formulário-contato{
-
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border: 1px solid var(--vidro);
 }
+
 .nome-form{
 
 }
+
 .grupo-form{
 
 }
+
 .campo-form{
 
 }
