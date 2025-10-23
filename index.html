@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <title>Meu Portfólio</title>
 </head>
 <body>
@@ -68,14 +69,14 @@
     <section id="contato" class="contatos">
         <h2 class="contatos-titulo">Entre em Contato</h2>
 
-        <form class="formulário-contato" id="formulário">
+        <form class="formulário-contato" id="formulário" onsubmit="enviarEmail(event)">
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input id="mensagem" name="nome" type="text" placeholder="Nome" class="campo-form" required>
             </div>
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua mensagem"></textarea>
+                <textarea id="mensagem" name="mensagem" class="campo-form" placeholder="Digite sua mensagem" required></textarea>
             </div>
-            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+            <button type="submit" class="botao-form">Enviar Email</button>
         </form>
     </section>
 
